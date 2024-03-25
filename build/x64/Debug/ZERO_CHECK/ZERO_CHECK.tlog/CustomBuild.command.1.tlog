@@ -1,0 +1,10 @@
+^C:\USERS\ZLATA\ONEDRIVE\РАБОЧИЙ СТОЛ\LAB1DB\BUILD\CMAKEFILES\9D70C0F1EEF1476A6C4375F8F967185A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/zlata/OneDrive/Рабочий стол/Lab1DB" "-BC:/Users/zlata/OneDrive/Рабочий стол/Lab1DB/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/zlata/OneDrive/Рабочий стол/Lab1DB/build/Lab1DB.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

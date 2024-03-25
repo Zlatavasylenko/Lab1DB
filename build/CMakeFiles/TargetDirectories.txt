@@ -1,0 +1,3 @@
+C:/Users/zlata/OneDrive/Рабочий стол/Lab1DB/build/CMakeFiles/Lab1DB.dir
+C:/Users/zlata/OneDrive/Рабочий стол/Lab1DB/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/zlata/OneDrive/Рабочий стол/Lab1DB/build/CMakeFiles/ZERO_CHECK.dir
